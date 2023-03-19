@@ -9,6 +9,7 @@
 
 #include "construction.hh"
 #include "physics.hh"
+#include "action.hh"
 
 //main function
 int main(int argc, char** argv)
@@ -20,6 +21,8 @@ int main(int argc, char** argv)
     /*Initialize our Detector Construction and our Physics list*/
     runManager->SetUserInitialization(new MyDetectorConstruction());
     runManager->SetUserInitialization(new MyPhysicsList());
+    runManager->SetUserInitialization(new MyActionInitialization());
+
 
     /*This method invokes all the necessary initialization procedures for an
     event loop*/
@@ -45,6 +48,8 @@ int main(int argc, char** argv)
     UImanager->ApplyCommand("/vis/open OGL");
     UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
     UImanager->ApplyCommand("/vis/drawVolume");
+    UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
+    UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
 
     /*Start user session from G4UIExective class*/
     ui->SessionStart();
