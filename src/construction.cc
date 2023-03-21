@@ -20,6 +20,27 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     pressure. The class also contains the Table of defined materials with its 
     characteristics.*/
 
+    //Create SiO2 as a G4Material, the args are the name, the density and number of components
+    G4Material *SiO2 = new G4Material("SiO2", 2.201*g/cm3, 2);
+    //Add the Silicon and the Oxigen to our new material
+    SiO2->AddElement(nist->FindOrBuildElement("Si"), 1);
+    SiO2->AddElement(nist->FindOrBuildElement("O"), 2);
+
+    //Create SiO2 as a G4Material, the args are the name, the density and number of components
+    G4Material *H2O = new G4Material("H2O", 1.000*g/cm3, 2);
+    //Add the Hidrogen and Oxigen to our new material
+    H2O->AddElement(nist->FindOrBuildElement("H"), 2);
+    H2O->AddElement(nist->FindOrBuildElement("O"), 1);
+
+    //Create a pointer to the Carbon in G4Material index
+    G4Element *C = nist->FindOrBuildElement("C");
+
+    //Create Aerogel from the materials created previously
+    G4Material *Aerogel = new G4Material("Aerogel", 0.200*g/cm3, 3);
+    Aerogel->AddMaterial(SiO2, 62.5*perCent);
+    Aerogel->AddMaterial(H2O, 37.4*perCent);
+    Aerogel->AddElement(C, 0.1*perCent);
+
     //Find the material in the table provided by G4Material
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
 
@@ -50,6 +71,17 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
     to a mother volume.*/
     G4VPhysicalVolume *physWorld = new G4PVPlacement(0, G4ThreeVector(0.,
      0., 0.), logicWorld, "physWorld", 0, false, 0, true);
+
+    //Create the solid volume of the cherenkov radiator
+    G4Box *solidRadiator = new G4Box("solidRadiator", 0.4*m, 0.4*m, 0.01*m);
+
+    //Create the logical volume of the cherenkov radiator
+    G4LogicalVolume *logicRadiator = new G4LogicalVolume(solidRadiator, 
+    Aerogel, "logicRadiator");
+
+    //Create the physical volume of the cherenkov radiator
+    G4VPhysicalVolume *physRadiator = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.25*m),
+    logicRadiator, "physRadiator", logicWorld, false, 0, true);
 
     return physWorld;
 }
