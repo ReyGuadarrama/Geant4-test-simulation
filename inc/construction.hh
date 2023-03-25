@@ -27,6 +27,10 @@ public:
     system.  Either a single positioned volume or many positioned volume can 
     be represented by a particular G4VPhysicalVolume.*/
     virtual G4VPhysicalVolume *Construct();
+
+private:
+    G4LogicalVolume *logicDetector;
+
 };
 
 #endif
