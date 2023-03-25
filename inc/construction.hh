@@ -9,6 +9,7 @@
 #include "G4PVPlacement.hh"
 #include "G4NistManager.hh"
 #include "G4SystemOfUnits.hh"
+#include "detector.hh"
 
 /*Create our own Detector Construction class from G4VUserDetectorConstruction
 class. This is the abstract base class for the user's mandatory initialization
@@ -30,6 +31,7 @@ public:
 
 private:
     G4LogicalVolume *logicDetector;
+    virtual void ConstructSDandField();
 
 };
 

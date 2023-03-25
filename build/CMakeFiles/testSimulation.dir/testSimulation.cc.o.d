@@ -626,6 +626,12 @@ CMakeFiles/testSimulation.dir/testSimulation.cc.o: \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Pow.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Exp.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/vboxuser/Simulations/testSimulation/inc/detector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VSDFilter.hh \
  /home/vboxuser/Simulations/testSimulation/inc/physics.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VPhysicsConstructor.hh \

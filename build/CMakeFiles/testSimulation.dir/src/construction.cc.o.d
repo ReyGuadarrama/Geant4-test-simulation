@@ -341,4 +341,62 @@ CMakeFiles/testSimulation.dir/src/construction.cc.o: \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ICRU90StoppingData.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Pow.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Exp.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SystemOfUnits.hh
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/vboxuser/Simulations/testSimulation/inc/detector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VHit.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Step.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4StepPoint.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Allocator.hh \
+ /usr/include/c++/11/cstddef \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AllocatorPool.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SteppingControl.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4StepStatus.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4TouchableHandle.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VTouchable.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VTouchable.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4LogicalVolume.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4StepPoint.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4TrackVector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Profiler.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Profiler.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/PTL/Globals.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/PTL/Types.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/PTL/Utility.hh \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Step.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Track.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/trkdefs.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4DynamicParticle.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/11/stdlib.h \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/pwdefs.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4LorentzVector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleMomentum.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4DynamicParticle.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4TrackStatus.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Track.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VHitsCollection.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4TouchableHistory.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationHistory.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AffineTransform.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AffineTransform.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationLevel.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationLevel.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4NavigationHistory.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4TouchableHistory.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VSDFilter.hh

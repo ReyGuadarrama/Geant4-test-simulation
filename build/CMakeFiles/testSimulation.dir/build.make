@@ -111,10 +111,24 @@ CMakeFiles/testSimulation.dir/src/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testSimulation.dir/src/construction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Simulations/testSimulation/src/construction.cc -o CMakeFiles/testSimulation.dir/src/construction.cc.s
 
+CMakeFiles/testSimulation.dir/src/detector.cc.o: CMakeFiles/testSimulation.dir/flags.make
+CMakeFiles/testSimulation.dir/src/detector.cc.o: ../src/detector.cc
+CMakeFiles/testSimulation.dir/src/detector.cc.o: CMakeFiles/testSimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testSimulation.dir/src/detector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testSimulation.dir/src/detector.cc.o -MF CMakeFiles/testSimulation.dir/src/detector.cc.o.d -o CMakeFiles/testSimulation.dir/src/detector.cc.o -c /home/vboxuser/Simulations/testSimulation/src/detector.cc
+
+CMakeFiles/testSimulation.dir/src/detector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testSimulation.dir/src/detector.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vboxuser/Simulations/testSimulation/src/detector.cc > CMakeFiles/testSimulation.dir/src/detector.cc.i
+
+CMakeFiles/testSimulation.dir/src/detector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testSimulation.dir/src/detector.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vboxuser/Simulations/testSimulation/src/detector.cc -o CMakeFiles/testSimulation.dir/src/detector.cc.s
+
 CMakeFiles/testSimulation.dir/src/generator.cc.o: CMakeFiles/testSimulation.dir/flags.make
 CMakeFiles/testSimulation.dir/src/generator.cc.o: ../src/generator.cc
 CMakeFiles/testSimulation.dir/src/generator.cc.o: CMakeFiles/testSimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testSimulation.dir/src/generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testSimulation.dir/src/generator.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testSimulation.dir/src/generator.cc.o -MF CMakeFiles/testSimulation.dir/src/generator.cc.o.d -o CMakeFiles/testSimulation.dir/src/generator.cc.o -c /home/vboxuser/Simulations/testSimulation/src/generator.cc
 
 CMakeFiles/testSimulation.dir/src/generator.cc.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/testSimulation.dir/src/generator.cc.s: cmake_force
 CMakeFiles/testSimulation.dir/src/physics.cc.o: CMakeFiles/testSimulation.dir/flags.make
 CMakeFiles/testSimulation.dir/src/physics.cc.o: ../src/physics.cc
 CMakeFiles/testSimulation.dir/src/physics.cc.o: CMakeFiles/testSimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testSimulation.dir/src/physics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testSimulation.dir/src/physics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testSimulation.dir/src/physics.cc.o -MF CMakeFiles/testSimulation.dir/src/physics.cc.o.d -o CMakeFiles/testSimulation.dir/src/physics.cc.o -c /home/vboxuser/Simulations/testSimulation/src/physics.cc
 
 CMakeFiles/testSimulation.dir/src/physics.cc.i: cmake_force
@@ -144,6 +158,7 @@ testSimulation_OBJECTS = \
 "CMakeFiles/testSimulation.dir/testSimulation.cc.o" \
 "CMakeFiles/testSimulation.dir/src/action.cc.o" \
 "CMakeFiles/testSimulation.dir/src/construction.cc.o" \
+"CMakeFiles/testSimulation.dir/src/detector.cc.o" \
 "CMakeFiles/testSimulation.dir/src/generator.cc.o" \
 "CMakeFiles/testSimulation.dir/src/physics.cc.o"
 
@@ -153,6 +168,7 @@ testSimulation_EXTERNAL_OBJECTS =
 testSimulation: CMakeFiles/testSimulation.dir/testSimulation.cc.o
 testSimulation: CMakeFiles/testSimulation.dir/src/action.cc.o
 testSimulation: CMakeFiles/testSimulation.dir/src/construction.cc.o
+testSimulation: CMakeFiles/testSimulation.dir/src/detector.cc.o
 testSimulation: CMakeFiles/testSimulation.dir/src/generator.cc.o
 testSimulation: CMakeFiles/testSimulation.dir/src/physics.cc.o
 testSimulation: CMakeFiles/testSimulation.dir/build.make
@@ -202,7 +218,7 @@ testSimulation: /home/vboxuser/software/geant4/geant4-v11.1.1-install/lib/libG4g
 testSimulation: /home/vboxuser/software/geant4/geant4-v11.1.1-install/lib/libG4clhep.so
 testSimulation: /home/vboxuser/software/geant4/geant4-v11.1.1-install/lib/libG4ptl.so.2.3.3
 testSimulation: CMakeFiles/testSimulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable testSimulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vboxuser/Simulations/testSimulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable testSimulation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testSimulation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
