@@ -262,6 +262,30 @@ src/physics.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testSimulation.dir/build.make CMakeFiles/testSimulation.dir/src/physics.cc.s
 .PHONY : src/physics.cc.s
 
+src/run.o: src/run.cc.o
+.PHONY : src/run.o
+
+# target to build an object file
+src/run.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testSimulation.dir/build.make CMakeFiles/testSimulation.dir/src/run.cc.o
+.PHONY : src/run.cc.o
+
+src/run.i: src/run.cc.i
+.PHONY : src/run.i
+
+# target to preprocess a source file
+src/run.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testSimulation.dir/build.make CMakeFiles/testSimulation.dir/src/run.cc.i
+.PHONY : src/run.cc.i
+
+src/run.s: src/run.cc.s
+.PHONY : src/run.s
+
+# target to generate assembly for a file
+src/run.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testSimulation.dir/build.make CMakeFiles/testSimulation.dir/src/run.cc.s
+.PHONY : src/run.cc.s
+
 testSimulation.o: testSimulation.cc.o
 .PHONY : testSimulation.o
 
@@ -311,6 +335,9 @@ help:
 	@echo "... src/physics.o"
 	@echo "... src/physics.i"
 	@echo "... src/physics.s"
+	@echo "... src/run.o"
+	@echo "... src/run.i"
+	@echo "... src/run.s"
 	@echo "... testSimulation.o"
 	@echo "... testSimulation.i"
 	@echo "... testSimulation.s"

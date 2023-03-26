@@ -1,13 +1,8 @@
-CMakeFiles/testSimulation.dir/src/action.cc.o: \
- /home/vboxuser/Simulations/testSimulation/src/action.cc \
+CMakeFiles/testSimulation.dir/src/run.cc.o: \
+ /home/vboxuser/Simulations/testSimulation/src/run.cc \
  /usr/include/stdc-predef.h \
- /home/vboxuser/Simulations/testSimulation/inc/action.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/vboxuser/Simulations/testSimulation/inc/generator.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleGun.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/globals.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ios.hh \
+ /home/vboxuser/Simulations/testSimulation/inc/run.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4UserRunAction.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Types.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/11/complex \
@@ -182,6 +177,14 @@ CMakeFiles/testSimulation.dir/src/action.cc.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/tls.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AnalysisManager.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/globals.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ios.hh \
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_algo.h \
@@ -238,18 +241,6 @@ CMakeFiles/testSimulation.dir/src/action.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VPrimaryGenerator.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ThreeVector.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/defs.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4PDefManager.hh \
- /usr/include/c++/11/stdlib.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/pwdefs.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AutoLock.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/shared_ptr.h \
@@ -260,27 +251,7 @@ CMakeFiles/testSimulation.dir/src/action.cc.o: \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.icc \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4PrimaryVertex.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AllocatorPool.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4PrimaryParticle.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleMomentum.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4SystemOfUnits.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleTable.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleTableIterator.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ParticleTable.icc \
- /home/vboxuser/Simulations/testSimulation/inc/run.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4UserRunAction.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AnalysisManager.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4GenericAnalysisManager.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ToolsAnalysisManager.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4VAnalysisManager.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AnalysisManagerState.hh \
- /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AnalysisVerbose.hh \
- /usr/include/c++/11/fstream \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/memory \
@@ -312,6 +283,7 @@ CMakeFiles/testSimulation.dir/src/action.cc.o: \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4THnToolsManager.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4THnManager.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4THnManager.icc \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4AutoLock.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4THnMessenger.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4UImessenger.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4UIdirectory.hh \
@@ -319,6 +291,10 @@ CMakeFiles/testSimulation.dir/src/action.cc.o: \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4UIparameter.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4UItokenNum.hh \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ApplicationState.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4ThreeVector.hh \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4THnToolsManager.icc \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4THnMessenger.icc \
  /home/vboxuser/software/geant4/geant4-v11.1.1-install/include/Geant4/G4Tokenizer.hh \

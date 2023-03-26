@@ -4,6 +4,7 @@
 #include "G4VUserActionInitialization.hh"
 
 #include "generator.hh"
+#include "run.hh"
 
 /*G4VUserActionInitialization is the abstract base class for instantiating 
 all user action classes. It has a pure virtual method Build() which is invoked 
